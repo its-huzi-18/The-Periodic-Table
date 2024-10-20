@@ -1,0 +1,102 @@
+* {
+  margin: 1px;
+  padding: 1px;
+}
+.periodicTable-container1,
+.container-2 {
+  font-size: 17px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.main-heading {
+  font-weight: bolder;
+  font-size: 19px;
+  text-align: center;
+}
+.periodicTable-container1 {
+  margin-top: 16px;
+  margin-left: 14px;
+  display: grid;
+  padding: 2px;
+
+  gap: 2px;
+  width: 96%;
+  height: 60vh;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+  border: 2px solid black;
+}
+.box {
+  padding-top: 14px;
+  text-align: center;
+  border: 2px solid black;
+  text-align: center;
+  background-color: rgb(255, 217, 0);
+}
+#col1 {
+  grid-column: 2 / span 16;
+  background-color: white;
+}
+#col2 {
+  background-color: white;
+  grid-column: 3 / span 10;
+}
+#col3 {
+  background-color: white;
+  grid-column: 3 / span 10;
+}
+.purple {
+  background-color: rgb(233, 97, 238);
+}
+.blue {
+  background-color: rgba(54, 54, 189, 0.863);
+}
+.light-pink {
+  background-color: pink;
+}
+.brown {
+  background-color: #9c520d;
+}
+.peach {
+  background-color: rgba(250, 70, 130, 0.849);
+}
+.sky {
+  background-color: rgb(68, 131, 226);
+}
+.white {
+  background-color: whitesmoke;
+}
+.orange {
+  background-color: rgba(224, 148, 8, 0.925);
+}
+.red {
+  background-color: rgba(247, 87, 87, 0.856);
+}
+.green {
+  background-color: rgba(13, 148, 13, 0.925);
+}
+.container-2 {
+  padding: 2px;
+  margin-left: 14px;
+  border: 2px solid black;
+  height: 18vh;
+  width: 90vw;
+  margin-top: 18px;
+  display: grid;
+  gap: 2px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 36px 36px repeat(15, 1fr) 36px;
+}
+.item {
+  border: 2px solid black;
+  padding-top: 14px;
+  text-align: center;
+  background-color: pink;
+}
+#item-1,
+#item-2,
+#lastItem {
+  grid-row: span 2;
+  background-color: white;
+}
